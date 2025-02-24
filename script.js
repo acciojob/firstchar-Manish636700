@@ -1,5 +1,5 @@
 function firstChar(text) {
-  let str = text.trim();
+  let str = text.trimStart();
 	return str.length > 0 ? str[0]: "";
 }
 
